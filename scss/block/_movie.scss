@@ -1,0 +1,86 @@
+.list_kino {
+    padding: 15px 0;
+}
+select {
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+#kinoSelect:focus, #reytingSelect:focus{
+    border-color: rgba(179, 18, 18, 0.932);
+    outline: none;
+    box-shadow: 1px 0px 4px red;
+}
+.card_list {
+    margin-top: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card_item {
+    width: 250px;
+    height: 340px;
+    box-shadow: 1px 1px 10px grey;
+    border-radius: 7px;
+    overflow: hidden;
+    text-align: center;
+    padding: 0px;
+    margin: 5px 10px;
+    position: relative;
+    img {
+        width: 75%;
+        height: 200px;
+        object-fit: cover;
+    }
+    span {
+        display: inline-block;
+        margin: 1px;
+    }
+    h4 {
+        margin: 1px;
+        font-size: 16px;
+    }
+    .icon_like {
+        cursor: pointer;
+        color: red;
+        position: absolute;
+        top: 15px;
+        right: 0px;
+        font-size: 25px;
+    }
+
+    
+}
+.card_item span {
+    margin-top: 0;
+}
+.pagenation__list {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+.pagenation__list  button {
+    margin: 5px;
+    padding: 5px 8px;
+    border-radius: 4px;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+
+.pagenation__list .active {
+    color: black;
+    background-color: red;
+}
+#clear__btn{
+    background-color: red;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
